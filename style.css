@@ -32,12 +32,16 @@ body {
 }
 
 .logo {
-  font-size: 1.8rem;
-  font-weight: 700;
+  display: flex;
+  align-items: center;
+  margin: 0;
 }
 
-.logo span {
-  color: #ffce63;
+.nav-logo {
+  height: 45px;
+  width: auto;
+  vertical-align: middle;
+  border-radius: 50px;
 }
 
 .nav-links {
@@ -657,4 +661,5 @@ footer {
   .timeline-item:nth-child(even)::after {
     left: 23px;
   }
+
 }
