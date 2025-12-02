@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MD Tasinul Alam - Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ===== NAVBAR ===== -->
+    <nav class="navbar">
+      <h2 class="logo">Tasinul <span>Alam</span></h2>
+
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- ===== HERO SECTION ===== -->
+    <header id="hero" class="hero">
+      <h1 class="fade-in">Hi, I'm <span>MD Tasinul Alam</span></h1>
+      <p class="fade-in delay-1">Node.js • TypeScript • Express • MongoDB</p>
+      <a href="#projects" class="btn fade-in delay-2">View My Projects</a>
+    </header>
+
+    <!-- ===== ABOUT SECTION ===== -->
+    <section id="about" class="about slide-up">
+      <h2>About Me</h2>
+      <p>
+        I am a passionate web developer specializing in Node.js, TypeScript,
+        Express and MongoDB. I build modern, secure and fast APIs and websites.
+        I love learning new technologies and solving real-world problems through
+        code.
+      </p>
+    </section>
+
+    <!-- ===== SKILLS SECTION ===== -->
+    <section id="skills" class="skills slide-up">
+      <h2>My Skills</h2>
+      <div class="skill-list">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>TypeScript</span>
+        <span>Node.js</span>
+        <span>Express</span>
+        <span>MongoDB</span>
+        <span>Git & GitHub</span>
+        <span>REST API</span>
+        <!-- <span>Nodemailer</span> -->
+      </div>
+    </section>
+
+    <!-- ===== PROJECTS SECTION ===== -->
+    <section id="projects" class="projects slide-up">
+      <h2>Projects</h2>
+
+      <div class="project-grid">
+        <div class="project-card">
+          <h3>Red Rose Cosmetic Shop</h3>
+          <p>A clean and modern cosmetic shop UI using HTML, CSS & JS.</p>
+          <a
+            href="https://hst159075.github.io/Red-Rose-Cosmetic-Shop/"
+            target="_blank"
+            >Visit</a
+          >
+        </div>
+
+        <div class="project-card">
+          <h3>Our Medical Health</h3>
+          <p>A healthcare website with professional layout and UI.</p>
+          <a
+            href="https://hst159075.github.io/Our-Medical-Health/"
+            target="_blank"
+            >Visit</a>
+        </div>
+
+        <div class="project-card">
+          <h3>Rawasi Tailor</h3>
+          <p>E-Commerce site</p>
+          <p>A Rawasi Tailor project with professional layout and UI.</p>
+          <a
+            href="https://hst159075.github.io/Rawasi-tailor/"
+            target="_blank"
+            >Visit</a>
+        </div>
+
+        <div class="project-card">
+          <h3>Portfolio Website (This Site)</h3>
+          <p>Built using Node.js, TypeScript, Express & Custom Frontend.</p>
+          <a href="#">Current</a>
+        </div>
+      </div>
+    </section>
+    <section id="experience" class="experience slide-up">
+      <h2>My Experience</h2>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <h3>Full Stack Developer Trainee</h3>
+          <p class="company">Tech Innovate Co.</p>
+          <p class="date">Jan 2024 - Jun 2024</p>
+          <ul>
+            <li>
+              Developed and maintained RESTful APIs using **Node.js and
+              Express**.
+            </li>
+            <li>
+              Implemented **MongoDB** database schemas and optimized queries.
+            </li>
+            <li>
+              Collaborated with the frontend team to integrate APIs and ensure
+              seamless functionality.
+            </li>
+          </ul>
+        </div>
+
+        <div class="timeline-item">
+          <h3>Personal Portfolio Project (This Site)</h3>
+          <p class="company">Self-Directed Learning</p>
+          <p class="date">Oct 2024</p>
+          <ul>
+            <li>
+              Designed and built a responsive portfolio using **HTML, CSS, and
+              JS**.
+            </li>
+            <li>
+              Backend setup with **TypeScript and Node.js** for handling the
+              contact form.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <hr
+      style="
+        border: 0;
+        height: 1px;
+        background-image: linear-gradient(
+          to right,
+          rgba(255, 255, 255, 0),
+          rgba(255, 255, 255, 0.75),
+          rgba(255, 255, 255, 0)
+        );
+        max-width: 800px;
+        margin: 50px auto;
+      "
+    />
+
+    <section id="contact" class="contact slide-up"></section>
+    <!-- ===== CONTACT SECTION ===== -->
+    <section id="contact" class="contact slide-up">
+      <h2>Contact Me</h2>
+
+      <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" required />
+        <input type="email" id="email" placeholder="Your Email" required />
+        <textarea id="message" placeholder="Your Message" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+
+      <p id="responseMsg"></p>
+    </section>
+
+    <div class="social-links slide-up">
+      <a
+        href="https://github.com/yourusername"
+        target="_blank"
+        aria-label="GitHub Profile"
+      >
+        <span class="social-icon github">GitHub</span>
+      </a>
+      <a
+        href="https://www.linkedin.com/in/tasin-alam-28158735a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+        target="_blank"
+        aria-label="LinkedIn Profile"
+      >
+        <span class="social-icon linkedin">LinkedIn</span>
+      </a>
+    </div>
+
+    <div class="cv-area slide-up"></div>
+    <!-- ===== CV DOWNLOAD ===== -->
+    <div class="cv-area slide-up">
+      <a href="MD_Tasinul_Alam_CV.pdf" download>
+        <button class="cv-btn">Download My CV</button>
+      </a>
+    </div>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+      <p>© 2025 MD Tasinul Alam — All Rights Reserved</p>
+    </footer>
+    <script src="js/app.js"></script>
+    <script src="js/contact.ts"></script>
+  </body>
+</html>
